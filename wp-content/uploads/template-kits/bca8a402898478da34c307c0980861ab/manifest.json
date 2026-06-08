@@ -1,0 +1,811 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Ferran \u2013 Personal Portfolio & Resume Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio Details",
+            "screenshot": "screenshots\/portfolio-details.jpg",
+            "source": "templates\/portfolio-details.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/portfolio-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/single-post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Contact",
+            "screenshot": "screenshots\/metform-contact.jpg",
+            "source": "templates\/metform-contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/metform-contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/ferran\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.11.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.1",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.2.3",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "studio-shot-of-handsome-european-man-smiles-positi-Y4MWC2J.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/studio-shot-of-handsome-european-man-smiles-positi-Y4MWC2J.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 277387,
+            "dimensions": [
+                700,
+                942
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Y4MWC2J"
+        },
+        {
+            "filename": "smith-sgntr.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/smith-sgntr.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2702,
+            "dimensions": [
+                270,
+                122
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4KM4CED"
+        },
+        {
+            "filename": "abstract-packaging-branding-for-aromatic-brands-with-design-space-e1679883779559.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/abstract-packaging-branding-for-aromatic-brands-with-design-space-e1679883779559-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 338805,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-3WEN72T"
+        },
+        {
+            "filename": "designer-at-work-e1679884017244.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/designer-at-work-e1679884017244-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 273752,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8XNK3DM"
+        },
+        {
+            "filename": "website-development-e1679883796827.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/website-development-e1679883796827-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 290209,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DSD6VHW"
+        },
+        {
+            "filename": "people-hand-holding-a-pen-for-working-to-write-on-a-book-for-letter-or-business-document-e1679884042239.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/people-hand-holding-a-pen-for-working-to-write-on-a-book-for-letter-or-business-document-e1679884042239-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 101220,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-33QWS48"
+        },
+        {
+            "filename": "portrait-of-a-woman-6M4S34K.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/portrait-of-a-woman-6M4S34K.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 55498,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6M4S34K"
+        },
+        {
+            "filename": "handsome-man-smiling-in-the-park-RKUHFQB.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/handsome-man-smiling-in-the-park-RKUHFQB.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 31035,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RKUHFQB"
+        },
+        {
+            "filename": "portrait-of-an-african-woman-smiling-8LRBATX.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/portrait-of-an-african-woman-smiling-8LRBATX.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 52386,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8LRBATX"
+        },
+        {
+            "filename": "portrait-of-handsome-brunet-european-man-smiles-gl-9Q9DMBT.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/portrait-of-handsome-brunet-european-man-smiles-gl-9Q9DMBT.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 262649,
+            "dimensions": [
+                700,
+                867
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9Q9DMBT"
+        },
+        {
+            "filename": "sponsor-8-e1679883614202.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/sponsor-8-800x199.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 26366,
+            "dimensions": [
+                800,
+                199
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2JWMP5"
+        },
+        {
+            "filename": "sponsor-7-e1679883699377.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/sponsor-7-800x207.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 32864,
+            "dimensions": [
+                800,
+                207
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-DTVQVHF"
+        },
+        {
+            "filename": "sponsor-6-e1679883625466.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/sponsor-6-800x194.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 37346,
+            "dimensions": [
+                800,
+                194
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-C4F2ZCT"
+        },
+        {
+            "filename": "sponsor-4-e1679883708349.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/sponsor-4-800x187.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 24790,
+            "dimensions": [
+                800,
+                187
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-CM23AP"
+        },
+        {
+            "filename": "sponsor-1-e1679883716421.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/sponsor-1-800x156.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 21157,
+            "dimensions": [
+                800,
+                156
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-MJY9CBZ"
+        },
+        {
+            "filename": "sponsor-3-e1679883723735.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/sponsor-3-800x192.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 32907,
+            "dimensions": [
+                800,
+                192
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-BAD6Z7"
+        },
+        {
+            "filename": "sponsor-5-e1679883633318.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/sponsor-5-800x210.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 36193,
+            "dimensions": [
+                800,
+                210
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-FGBAZS"
+        },
+        {
+            "filename": "sponsor-2-e1679883731752.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/sponsor-2-800x288.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 43124,
+            "dimensions": [
+                800,
+                288
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4BD67PS"
+        },
+        {
+            "filename": "graphic-design-icon-creative-style-e1679884326518.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/graphic-design-icon-creative-style-e1679884326518-800x555.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 133014,
+            "dimensions": [
+                1440,
+                999
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8KLV6DT"
+        },
+        {
+            "filename": "develop-coding-web-design-coding-web-template-e1679884350539.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/develop-coding-web-design-coding-web-template-e1679884350539-800x561.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio-details.json",
+                    "name": "Portfolio Details"
+                }
+            ],
+            "filesize": 165238,
+            "dimensions": [
+                1440,
+                1009
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9QPEHGK"
+        },
+        {
+            "filename": "top-view-of-gadgets-near-wooden-blocks-with-ux-design-lettering-website-design-template-and-green-e1679884420186.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/top-view-of-gadgets-near-wooden-blocks-with-ux-design-lettering-website-design-template-and-green-e1679884420186-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 183557,
+            "dimensions": [
+                1440,
+                961
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-R3G4EFV"
+        },
+        {
+            "filename": "work-space-with-black-desk-top-view-e1679884392435.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/work-space-with-black-desk-top-view-e1679884392435-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 287611,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-JTFUZBK"
+        },
+        {
+            "filename": "top-view-of-typewriter-and-wooden-cube-with-text-brand-on-wooden-background--e1679884411895.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/top-view-of-typewriter-and-wooden-cube-with-text-brand-on-wooden-background--e1679884411895-800x535.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 167283,
+            "dimensions": [
+                1440,
+                963
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2F8UMXY"
+        },
+        {
+            "filename": "tool-of-professional-developer-programmer-working-a-software-website-design-and-coding-technology-e1679884449180.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/tool-of-professional-developer-programmer-working-a-software-website-design-and-coding-technology-e1679884449180-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-details.json",
+                    "name": "Portfolio Details"
+                }
+            ],
+            "filesize": 147948,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-H6H7EJ5"
+        },
+        {
+            "filename": "home-office-interior-e1679884458922.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/home-office-interior-e1679884458922-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-details.json",
+                    "name": "Portfolio Details"
+                }
+            ],
+            "filesize": 156519,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P4WUBNT"
+        },
+        {
+            "filename": "businesswoman-working-at-home-freelancer-and-her-workspace--e1679884466129.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/businesswoman-working-at-home-freelancer-and-her-workspace--e1679884466129-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-details.json",
+                    "name": "Portfolio Details"
+                }
+            ],
+            "filesize": 97627,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-U4XMYVH"
+        },
+        {
+            "filename": "ux-designer-creative-graphic-planning-application-development-for-web-mobile-phone-or-computer-e1679884107356.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/ux-designer-creative-graphic-planning-application-development-for-web-mobile-phone-or-computer-e1679884107356-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 132202,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-55JWQCD"
+        },
+        {
+            "filename": "logo-1-e1679883759303.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/logo-1-800x137.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 16295,
+            "dimensions": [
+                800,
+                137
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/logotype-set_16445804.htm"
+        },
+        {
+            "filename": "logo-white-e1679884155411.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/logo-white-800x138.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 12874,
+            "dimensions": [
+                800,
+                138
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/logotype-set_16445804.htm"
+        },
+        {
+            "filename": "icon-logo.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/icon-logo.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 5089,
+            "dimensions": [
+                288,
+                186
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/logotype-set_16445804.htm"
+        },
+        {
+            "filename": "stylish-workspace-with-laptop-and-plants-at-home-e1679884165382.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/ferran\/wp-content\/uploads\/sites\/357\/2023\/03\/stylish-workspace-with-laptop-and-plants-at-home-e1679884165382-800x370.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 65409,
+            "dimensions": [
+                1440,
+                666
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-5UVNKFR"
+        }
+    ]
+}
